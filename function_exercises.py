@@ -37,10 +37,10 @@ def cap_first(string):
 def calculate_tip(tip, bill):
     if tip > 0 and tip < 1:
         total_tip = bill * tip
-        bill_total = bill + total_tip
+        
     else:
         print('Tip must be a number between 0 and 1')
-    return bill_total
+    return total_tip
 
 # 6. Define a function named apply_discount. 
 # It should accept a original price, and a discount percentage, and return the price after the discount is applied.
